@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans";
+}
+
+html {
+    background-color: rgb(223, 194, 223);
+    scroll-behavior: smooth;       
+}
+
+.contenedor{
+    padding: 40px 15px 15px 15px;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+nav {
+    display: right;
+    text-align: right;
+    padding: 5px 50px 0 0;
+    /* padding-bottom: 5px; */
+}
+
+nav a {
+    color: rgb(221, 199, 233);
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: solid;
+    margin-right: 20px;
+    text-shadow: 4px 5px 4px white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: violet;
+    cursor: pointer;
+}
+
+nav a:active{
+    color: chartreuse
+}
+
+.textos_header {
+    font-family: "Pixelify sans", "open sans";
+    margin: 60px 10px 5px 10px ;
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px blueviolet;
+   
+     
+}
+
+.textos_header h2 {
+    margin: 5px 10px  10px ;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    
+    
+}
+
+header{
+    height: 450px;
+    background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.824), hsla(250, 14%, 25%, 0.454)), url(../img/vscode1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: relative;
+    position: relative;
+    
+   
+}
